@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.indicons {
+  margin: 20px;
+}
+.image123 {
+  border: 5px solid rgb(40, 2, 61);
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+.image123:hover{
+    transform: scale(1.2);
+
+}
+.change{
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 900;
+}

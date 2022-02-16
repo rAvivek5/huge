@@ -1,0 +1,40 @@
+.center {
+  display: flex;
+  justify-content: center;
+  background: rgb(133, 133, 133);
+  height: 200px;
+  padding-top: 50px;
+  /* width: 50%; */
+}
+.submitbtn {
+  color: whitesmoke;
+  font-size: 17px;
+  font-weight: 200;
+  background: rgb(10, 1, 49);
+  height: 30px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid rgb(198, 255, 42);
+  cursor: pointer;
+}
+.forminput {
+  font-size: 17px;
+  font-weight: 200;
+  display: block;
+  margin-bottom: 10px;
+  background: rgb(231, 254, 255);
+  width: 300px;
+  color: rgb(1, 1, 46);
+}
+.preimage {
+  border: 2px solid rgb(119, 36, 167);
+  transition: all 0.2s ease-in-out;
+}
+.preimage:hover {
+  transform: scale(2);
+}
+.centerImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
